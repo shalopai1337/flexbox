@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточки товаров</title>
+
+    <style>
+        
+    .card {
+        display: flex;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        padding: 20px;
+        font-family: "Montserrat", "Helvetica", sans-serif;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 220px;
+        height: 280px;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card img {
+        width: 100px;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .card button {
+        background-color: black;
+        color: yellow;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-family: "Montserrat", "Helvetica", sans-serif;
+    }
+
+    .products {
+        display: flex;
+        gap: 20px;
+    }
+
+    .fashion-banner {
+        font-size: 80px;
+        font-weight: bold;
+        font-family: "Montserrat", "Helvetica", sans-serif;
+        margin-top: 50px;
+        letter-spacing: 8px;
+        color: #333;
+    }
+    </style> 
+</head>
+<body>
+    <div class = 'products'>
+        <div class = 'card'>
+        <h1> Батон </h1>
+        <img src = 'батон.png'>
+        <p> 50 рублей </p>
+        <button> Купить </button>
+        </div>
+
+        <div class = 'card'>
+        <h1> Апельсин </h1>
+        <img src = 'апельсин.png'>
+        <p> 100 рублей </p>
+        <button> Купить </button>
+        </div>
+
+        <div class = 'card'>
+        <h1> Банан </h1>
+        <img src = 'банан.png'>
+        <p> 150 рублей </p>
+        <button> Купить </button>
+        </div>
+
+        <div class = 'fashion-banner'>
+        <h1> FASHION </h1>
+        </div>
+        
+    </div>
+    <script>
+        "use strict";
+        
+    </script>
+</body>
+</html>
